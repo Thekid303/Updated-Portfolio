@@ -1,0 +1,189 @@
+html {
+  scroll-behavior: smooth;
+  text-align: center;
+}
+
+/* Navbar */
+nav {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 4rem;
+  background-color: springgreen;
+  
+}
+
+nav h1 {
+  color: black;
+}
+
+nav a {
+  color: black;
+}
+nav a:hover {
+  color:gold;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.9rem;
+}
+
+nav ul li {
+  font-weight: 850 ;
+}
+
+.header-menu {
+  cursor: grabbing;
+  display: none;
+}
+
+/* Opeing section */
+.open {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.5rem;
+  max-width: 70rem;
+  margin: auto;
+}
+.hello {
+  font-family: "Lucida Console","Courier New",monospace;
+  width: 25rem;
+  padding: 1rem;
+  box-shadow: 1px 4px 20px 4px gold;
+}
+
+/*  about */
+.about {
+  font-family: "Lucida Console","Courier New",monospace;
+  padding: 1rem 6rem;
+}
+.about p {
+  line-height: 1.7rem;
+  padding: 0.4rem;
+}
+
+/* Projects section */
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-title {
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-container {
+  text-align: center;
+  width: 23rem;
+  padding: 1rem;
+}
+
+.project-container p {
+  padding: 0.4rem;
+}
+
+.project-details {
+  margin-bottom: 0.5rem;
+}
+   .project-card {
+     background-color: springgreen;
+     border-radius: 11px;
+     box-shadow: 0 3px 10px gold;
+     padding: 20px;
+     margin: 10px;
+   }
+
+
+   /* Education section */
+   .education {
+     background-color: springgreen;
+     margin-top: 10rem;
+   }
+
+   .edu-title {
+     text-align: center;
+     margin-bottom: 1rem;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+/* Contacts section */
+.contact {
+  margin-top: 2rem;
+  background-color:  ;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact-form-container {
+  max-width: 40.75rem;
+  margin: 0 auto;
+  padding: 0.938rem;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px gold;
+}
+
+.contact-form-container label {
+  line-height: 2.7em;
+  font-weight: 900;
+  color:black;
+}
+
+.contact-form-container textarea {
+  min-height: 6.25rem;
+  font-size: 14px;
+}
+
+.contact-form-container .input-field {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  border: 2px outset lightblue;
+  font-size: 1rem;
+  outline: none;
+}
+
+.input-field::placeholder {
+  padding: 0.5rem;
+  color: lightblue;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: lightblue;
+  border: 2px solid gold;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.submit-btn:hover {
+  background-color: springgreen;
+  border: 2px solid gold ;
+  cursor: pointer;
+}
+
+
+
+
+/* Footer section */
+footer {
+  background-color: springgreen;
+  padding: 1.25rem;
+  text-align: center;
+  margin: 2rem 0 0;
+}
