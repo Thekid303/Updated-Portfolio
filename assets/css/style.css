@@ -10,8 +10,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 4rem;
-  background-color: springgreen;
-  
+  background-color: skyblue;
 }
 
 nav h1 {
@@ -22,7 +21,7 @@ nav a {
   color: black;
 }
 nav a:hover {
-  color:gold;
+  color: gold;
 }
 
 nav ul {
@@ -31,7 +30,7 @@ nav ul {
 }
 
 nav ul li {
-  font-weight: 850 ;
+  font-weight: 850;
 }
 
 .header-menu {
@@ -49,7 +48,7 @@ nav ul li {
   margin: auto;
 }
 .hello {
-  font-family: "Lucida Console","Courier New",monospace;
+  font-family: "Lucida Console", "Courier New", monospace;
   width: 25rem;
   padding: 1rem;
   box-shadow: 1px 4px 20px 4px gold;
@@ -57,7 +56,7 @@ nav ul li {
 
 /*  about */
 .about {
-  font-family: "Lucida Console","Courier New",monospace;
+  font-family: "Lucida Console", "Courier New", monospace;
   padding: 1rem 6rem;
 }
 .about p {
@@ -92,32 +91,31 @@ nav ul li {
 .project-details {
   margin-bottom: 0.5rem;
 }
-   .project-card {
-     background-color: springgreen;
-     border-radius: 11px;
-     box-shadow: 0 3px 10px gold;
-     padding: 20px;
-     margin: 10px;
-   }
+.project-card {
+  background-color: skyblue;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px gold;
+  padding: 20px;
+  margin: 10px;
+}
 
+/* Education section */
+.education {
+  background-color: skyblue;
+  margin-top: 10rem;
+}
 
-   /* Education section */
-   .education {
-     background-color: springgreen;
-     margin-top: 10rem;
-   }
-
-   .edu-title {
-     text-align: center;
-     margin-bottom: 1rem;
-     margin-left: auto;
-     margin-right: auto;
-   }
+.edu-title {
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* Contacts section */
 .contact {
   margin-top: 2rem;
-  background-color:  ;
+  background-color: ;
 }
 
 .contact h2 {
@@ -136,7 +134,7 @@ nav ul li {
 .contact-form-container label {
   line-height: 2.7em;
   font-weight: 900;
-  color:black;
+  color: black;
 }
 
 .contact-form-container textarea {
@@ -172,17 +170,14 @@ nav ul li {
 }
 
 .submit-btn:hover {
-  background-color: springgreen;
-  border: 2px solid gold ;
+  background-color: skyblue;
+  border: 2px solid gold;
   cursor: pointer;
 }
 
-
-
-
 /* Footer section */
 footer {
-  background-color: springgreen;
+  background-color: skyblue;
   padding: 1.25rem;
   text-align: center;
   margin: 2rem 0 0;
